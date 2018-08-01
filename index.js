@@ -1,5 +1,5 @@
 window.onload = function(){
-	games = ["413150", "578080", "271590"] //Stardew Valley, PUBG, GTA:V
+	games = ["413150", "578080", "271590"] //Stardew Valley, PUBG, GTAV
 	if (localStorage.getItem("webhookURL")){
 		console.log("Webhook has been found in localStorage");
 		$("#webhooklink").prop("value", localStorage.getItem("webhookURL"))
