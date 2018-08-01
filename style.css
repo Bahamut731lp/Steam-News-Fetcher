@@ -1,0 +1,72 @@
+body{
+	background: url('imgs/bg.jpg');
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin:0px;
+	font-family: 'Roboto', sans-serif;
+}
+.overlay{
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: -1;
+}
+.form{
+	background-color: #35383e;
+	display: inherit;
+	justify-content: inherit;
+	width: 680px;
+	padding: 20px;
+	height: 500px;
+}
+h5{
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	align-self: center;
+	text-align: center;
+	padding-bottom: 70px;
+}
+h1{
+	color: white;
+	position: absolute;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom: 1px solid white;
+	line-height: 1.25em;
+}
+input {
+	position: absolute;
+	transition: 0.1s;
+	align-self: center;
+	width: 500px;
+	height: 40px;
+	background-color: #313339;
+	border: none;
+	border: 1px solid black;
+	font-size: 16px;
+	padding-left: 10px;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+}
+input:focus{
+	border-color: #7489d8;
+}
+.submit{
+	position: absolute;
+	align-self: flex-end;
+	padding: 20px;
+	background-color: #7489d8;
+	color: white;
+	text-transform: capitalize;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 5px;
+}
